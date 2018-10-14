@@ -72,40 +72,34 @@ a:hover {
 }
 
 .content_hero_image {
-  margin-top: 4vw;
-  margin-bottom: 4vw;
+  margin: 4vw 0  4vw 0;
 }
 
 .content_featured_work{
-  margin-top: 4vw;
-  margin-bottom: 4vw;
+  margin: 4vw 0  4vw 0;
   font-size: 5.5vw;
   background-color: lightsalmon;
 }
 
 .content_featured_work_list_item_img{
-  margin-top: 18vw;
+  margin: 18vw 2% 0 2%;
   display: block;
-  margin-left: 2%;
-  margin-right: 2%;
   width: 96%;
 }
 
 /* Contact me section */
 
 .contact_me {
-  margin-top: 4vw;
+  margin: 4vw 0 6vw 0;
   background-color: slategray;
   color: white;
   font-size: 5vw;
   text-align: center;
-  margin-bottom: 6vw;
 }
 
 .contact_me_items_img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 0 auto;
   height: 28vw;
   width: 28vw;
 }
@@ -276,8 +270,7 @@ a:hover {
   .contact_me_items_image {
     order: 1;
     width: 20%;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin: 0 2% 0 2%;
   }
 
   .contact_me_items_img {
@@ -288,8 +281,7 @@ a:hover {
   .contact_me_items_container2 {
     order: 2;
     width: 72%;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin: 0 2% 0 2%;
   }
 
   .contact_me_items_container2_text{
@@ -334,8 +326,7 @@ a:hover {
 @media screen and (min-width: 1201px) {
   body {
     width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto 0 auto;
   }
 
   .header {
@@ -357,14 +348,12 @@ a:hover {
   }
 
   .content_hero_image {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: 40px 0 40px 0;
   }
 
   .content_featured_work{
     font-size: 32px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: 40px 0 40px 0;
   }
 
   .content_featured_work_list_item{
@@ -373,15 +362,12 @@ a:hover {
   }
 
   .content_featured_work_list_item_img{
-    margin-top: 60px;
-    margin-left: 24px;
-    margin-right: 24px;
+    margin: 60px 24px 0 24px;
   }
 
   .contact_me {
     font-size: 33px;
-    margin-top: 40px;
-    margin-bottom: 60px;
+    margin: 40px 0 60px 0;
   }
 
   .contact_me_header {
